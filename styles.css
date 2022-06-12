@@ -9,10 +9,11 @@
   }
   .container {
      
-    background-color: rgb(228,240,236);
+    background-color: rgb(82, 83, 84);
     margin: 2rem auto;
     max-width: 60rem;
     width: 90%;
+    color: #fff;
     -webkit-box-shadow: 3px -8px 25px 8px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px -8px 25px 8px rgba(0,0,0,0.5);
     box-shadow: 3px -8px 25px 8px rgba(0,0,0,0.5);
@@ -20,7 +21,7 @@
     html{
       font-size: 16px;
      margin-top: 3em;
-     background-color: rgb(228, 240, 236);
+     background-color: rgb(126, 134, 132);
      line-height: 1.618rem;
      color: rgb(17, 17, 18);
     font: 18px/1.618 sans-serif;
@@ -57,7 +58,7 @@
   }
  
     nav{
-      background-color: rgb(169, 246, 246);
+      background-color: rgb(82, 108, 108);
       top: 10px;
       left: 0px;
       height: 50px;
@@ -88,7 +89,7 @@
     }
   
     p{
-      color: rgb(35, 33, 31);
+      color: rgb(243, 219, 219);
       text-align: center;
      
       display: grid;
@@ -155,6 +156,10 @@
   #contacts{
     width: 300%;
     text-align: center;
+   
+  }
+  #contacts ul{
+    background-color:rgb(126, 134, 132);
   }
 
   #contacts a:hover{
